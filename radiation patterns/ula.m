@@ -45,7 +45,7 @@ figure;
 ax = polaraxes; % Create polar plot axes
 polarplot(gamma_angles, AF, 'LineWidth', 1.5); % Polar plot of the array factor
 ax.ThetaZeroLocation = 'bottom'; % Set theta=0 to be at the bottom
-title('Radiation Pattern in Azimuthal Plane'); % Plot title
+title('Radiation Pattern in Azimuthal Plane (ULA)'); % Plot title
 
 % Create a meshgrid for 3D radiation pattern calculations
 [gamma_grid, phi_grid] = meshgrid(gamma_angles, phi_angles); % Create angle grids
